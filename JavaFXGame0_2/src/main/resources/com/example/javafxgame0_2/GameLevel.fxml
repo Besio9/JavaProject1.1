@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="scene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="655.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxgame0_2.GameLevelController">
+   <children>
+      <ImageView fitHeight="605.0" fitWidth="662.0" layoutX="-4.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../../../../../Download/bc2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="MenuButton" layoutX="594.0" layoutY="566.0" mnemonicParsing="false" onMouseClicked="#switchToSceneMenu" text="Menu" />
+      <Circle fx:id="myCircle" fill="DODGERBLUE" layoutX="327.0" layoutY="372.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fx:id="enemy1" fitHeight="150.0" fitWidth="200.0" layoutX="-16.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Download/SantaMain.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemy2" fitHeight="158.0" fitWidth="257.0" layoutX="-36.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Download/sanie.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Present" fitHeight="57.0" fitWidth="54.0" layoutX="336.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Download/surprise-gift-.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemy3" fitHeight="68.0" fitWidth="85.0" layoutX="14.0" layoutY="-54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Download/snowflake.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemy4" fitHeight="68.0" fitWidth="85.0" layoutX="266.0" layoutY="-68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Download/snowflake.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemy6" fitHeight="68.0" fitWidth="85.0" layoutX="571.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Download/snowflake.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemy5" fitHeight="68.0" fitWidth="85.0" layoutX="480.0" layoutY="-54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Download/snowflake.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="presentsCountText" layoutX="6.0" layoutY="-6.0" prefHeight="58.0" prefWidth="300.0" text="Number of presents gathered: 0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="livesCountText" layoutX="518.0" layoutY="-6.0" prefHeight="58.0" prefWidth="300.0" text="Number of lives: 5">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
